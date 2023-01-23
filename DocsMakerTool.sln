@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsMakerTool", "DocsMakerTool\DocsMakerTool.csproj", "{3DEB98B7-C1DE-4AB2-B1FB-DB66F9B1F09C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationApp", "ImplementationApp\ImplementationApp.csproj", "{98056DFA-D74A-421D-BACC-5D2C67861FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{26F5C7C1-0662-4D5D-8C3D-C0DC50BE4438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3DEB98B7-C1DE-4AB2-B1FB-DB66F9B1F09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DEB98B7-C1DE-4AB2-B1FB-DB66F9B1F09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DEB98B7-C1DE-4AB2-B1FB-DB66F9B1F09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98056DFA-D74A-421D-BACC-5D2C67861FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98056DFA-D74A-421D-BACC-5D2C67861FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98056DFA-D74A-421D-BACC-5D2C67861FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98056DFA-D74A-421D-BACC-5D2C67861FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F5C7C1-0662-4D5D-8C3D-C0DC50BE4438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F5C7C1-0662-4D5D-8C3D-C0DC50BE4438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F5C7C1-0662-4D5D-8C3D-C0DC50BE4438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F5C7C1-0662-4D5D-8C3D-C0DC50BE4438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

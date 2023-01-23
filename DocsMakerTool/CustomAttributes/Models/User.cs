@@ -20,6 +20,20 @@ namespace DocsMakerTool.CustomAttributes.Models
         [Document("This is a Constructor","This takes in nothing and returns nothing")]
         public User() { }
 
+        [Document("This is a method!", "Input: User", "Ouput: void")]
+      public  string UpdateUser(User user)
+        {
+            return "";
+        }
+
+        [Document("This is an Enum of that shows usertype!")]
+      public  enum Usertype
+        {
+            employee,
+            admin,
+            manager,
+            supervisor
+        }
         
 
     }
